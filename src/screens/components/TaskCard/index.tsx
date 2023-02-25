@@ -22,7 +22,7 @@ export function TaskCard({name, done, onRemove, onDone}: TaskCardProps) {
         }
       </TouchableOpacity>
       
-      <Text style={styles.taskName}>{name}</Text>
+      <Text style={ done ? styles.taskNameDone : styles.taskName}>{name}</Text>
       
       <TouchableOpacity onPress={onRemove}>
         <TrashSVG/>

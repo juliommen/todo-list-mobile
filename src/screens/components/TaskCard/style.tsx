@@ -19,5 +19,13 @@ export const styles = StyleSheet.create({
     flex:1,
     marginLeft:8,
     marginRight:18,
+  },
+  taskNameDone: {
+    fontSize:14,
+    color:colorPallet.gray300,
+    flex:1,
+    marginLeft:8,
+    marginRight:18,
+    textDecorationLine:'line-through'
   }
 });
